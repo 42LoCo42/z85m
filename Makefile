@@ -3,3 +3,6 @@ main:
 
 install:
 	install -Dm755 main "$(DESTDIR)/usr/bin/z85m"
+
+test:
+	go test ./...
